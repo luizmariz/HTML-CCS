@@ -1,0 +1,60 @@
+body{
+    background-image: url("https://t4.ftcdn.net/jpg/01/37/88/49/240_F_137884952_EUUFigy0cIZweAkcli8AbYPQrblLs7Xx.jpg");
+}
+
+h1 {
+    text-align: center;
+    font-family: 'https://fonts.googleapis.com/css?family=Merienda';
+    color: #FFFFFF;
+    width: 30%;
+    margin: 0px auto;
+    background-color: grey;
+    
+}       
+
+.trocar_cor:hover
+{
+    background:#53a7ea;
+} 
+
+input[type=text] {
+    width: 300px;
+}
+
+.campo_centralizado {
+    text-align: center;
+    height: 600px;
+    width: 30%;
+    margin: 0px auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-style: inset;
+}
+
+.campo_checkbox{
+    text-align: left;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #050000;
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+th {
+    background-color: #78BFD3;
+}
+
+td {
+    text-align: left;
+}
+
+textarea {
+    width: 300px;
+    height: 100px;
+}
+
