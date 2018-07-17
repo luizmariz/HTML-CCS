@@ -6,7 +6,7 @@ h1 {
     text-align: center;
     font-family: 'https://fonts.googleapis.com/css?family=Merienda';
     color: #FFFFFF;
-    width: 30%;
+    width: 35%;
     margin: 0px auto;
     background-color: grey;
     
@@ -14,7 +14,7 @@ h1 {
 
 .trocar_cor:hover
 {
-    background:#53a7ea;
+    background: #53a7ea;
 } 
 
 input[type=text] {
@@ -23,10 +23,10 @@ input[type=text] {
 
 .campo_centralizado {
     text-align: center;
-    height: 600px;
-    width: 30%;
+    height: 500px;
+    width: 35%;
     margin: 0px auto;
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.692);
     border-style: inset;
 }
 
