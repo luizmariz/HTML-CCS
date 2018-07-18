@@ -6,6 +6,7 @@
         <meta charset = "utf-8">
         <title>Hello World</title>
 
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="hello.css">
         
     </head>
@@ -13,10 +14,11 @@
     <body> 
         <!-- Atividade 1 do treinamento -->
         <div class="aba">
+
             <br>
             <br>
             <br>
-            <br>
+            <br>        
             <br>
             <br>
             <br>
@@ -24,12 +26,15 @@
             <br>
             
             <div class = "campo_centralizado"> 
-                <font face = "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui" color = "black" size = "22px">Formulário</font>
+                <font class = "form">Formulário..mini</font>
+                <div id="divisoria"></div> 
+
                 <br>
                 <br>
                 <br>
-                <br>
+
                 <input type = "text" placeholder = "Escreva aqui seu e-mail... Abaixo, selecione seu estado civil">
+                
                 <br>
                 <br>
 
@@ -49,27 +54,28 @@
         
                     <input type = "radio" name="status" id="Planejando um assalto" value "Planejando um assalto">
                     <label for="Planejando um assalto">Planejando um assalto</label>
-                    <br>
-                    <br>
         
                 </div> 
-        
-                    <textarea placeholder="Não seja timido, deixe um comentario"></textarea>
-                    <br>
-                    <br>
-        
-                    <input type="button" value = "Enviar"> 
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
 
-                <font face = "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui" color = "black">SOBRE OS DESENVOLVEDORES</font>
+                <br>
+        
+                <textarea placeholder="Não seja timido, deixe um comentario" ></textarea>
+
+                <br>
+                <br>
+        
+                <input type="button" value = "Enviar" class = "botao efeito_botao"> 
+
+                <br>
+                <br>
+                <br>
+                    
+                <font>SOBRE OS DESENVOLVEDORES</font>
+
                 <div class="table_caixa">
                     <table>
                         <caption class="title">Developers data</caption>
-
+    
                         <tr>
                             <th>No</th>
                             <th class="esquerda">Nome</th>
