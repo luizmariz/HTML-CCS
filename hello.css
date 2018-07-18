@@ -6,7 +6,7 @@ body{
 
 font {
     font-family: 'Merriweather', serif;
-    font-size: 22px;
+    font-size: 18px;
     color: rgb(56, 56, 56);
     font-weight: bold;
 }
@@ -61,7 +61,7 @@ a {
 
 .form {
     font-family: 'Merriweather', serif;
-    font-size: 60px;
+    font-size: 48px;
     color: rgb(56, 56, 56);
 }
 
@@ -75,9 +75,9 @@ a {
 }
 
 .campo_centralizado {
-    height: 825px;
+    height: 860px;
     width: 60%;
-    margin: 10px auto;
+    margin: 20px auto;
     background-color: white;
     border-style: outset;
     text-align: center;
