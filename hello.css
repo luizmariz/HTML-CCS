@@ -1,11 +1,7 @@
+/* Tags */
+
 body{
     background-color: #ede7f6;
-}
-
-.form {
-    font-family: 'Indie Flower', cursive;
-    font-size: 60px;
-    color: rgb(56, 56, 56);
 }
 
 font {
@@ -29,30 +25,10 @@ textarea{
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
 }
 
-.aba {
-    background-color: rgb(103, 58, 183);
-    height: 278px;
-}
-.trocar_cor:hover td{
-    background-color: #dfdfdf;
-}
-
-.campo_centralizado {
-    height: 800px;
-    width: 60%;
-    margin: 20px auto;
-    background-color: white;
-    border-style: outset;
-    text-align: center;
-}
-
-.campo_checkbox{
-    text-align: left;
-    width: 550px;
-    height: 100px;
-    margin: 0 auto;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
-    font-size: 14px;
+.form {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color: rgb(56, 56, 56);
 }
 
 table {
@@ -77,6 +53,44 @@ th {
     padding: 10px;
 }
 
+textarea {
+    width: 550px;
+    height: 100px;
+}
+
+a {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+    font-size: 15px;
+}
+
+/* Classes */
+
+.aba {
+    background-color: rgb(103, 58, 183);
+    height: 278px;
+}
+
+.trocar_cor:hover td{
+    background-color: #dfdfdf;
+}
+
+.campo_centralizado {
+    height: 800px;
+    width: 60%;
+    margin: 20px auto;
+    background-color: white;
+    border-style: outset;
+    text-align: center;
+}
+
+.campo_checkbox{
+    text-align: left;
+    width: 550px;
+    height: 100px;
+    margin: 0 auto;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+    font-size: 14px;
+}
 
 .table_caixa {
     border-top: 1px solid #CCC;
@@ -94,19 +108,10 @@ th {
     text-align: right;
 }
 
-textarea {
-    width: 550px;
-    height: 100px;
-}
 
 .title {
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
     color: rgba(59, 59, 59, 0.459);
-}
-
-a{
-    font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
-    font-size: 15px;
 }
 
 .botao {
@@ -132,6 +137,8 @@ a{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 } 
+
+/* Id's */
 
 #divisoria {
     margin-left: 5%; 
