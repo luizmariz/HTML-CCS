@@ -25,12 +25,6 @@ textarea{
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
 }
 
-.form {
-    font-family: 'Indie Flower', cursive;
-    font-size: 60px;
-    color: rgb(56, 56, 56);
-}
-
 table {
     background:white;
     border-collapse: collapse;
@@ -65,6 +59,12 @@ a {
 
 /* Classes */
 
+.form {
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    color: rgb(56, 56, 56);
+}
+
 .aba {
     background-color: rgb(103, 58, 183);
     height: 278px;
@@ -75,9 +75,9 @@ a {
 }
 
 .campo_centralizado {
-    height: 800px;
+    height: 825px;
     width: 60%;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: white;
     border-style: outset;
     text-align: center;
