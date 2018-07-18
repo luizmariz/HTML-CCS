@@ -1,3 +1,3 @@
 # Proposta 2
 
-Primeiro exercicio em Html e Ccs.
+Primeiro exercicio em HTML e CSS
